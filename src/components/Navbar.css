@@ -2,59 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-.logo-img{
-    width: 100px;
-    /* height: 10; */
+.body{
+   font-family: 'Roboto',sans-serif;
 }
-.container{
+html{
+    font-size: 62.5%;
+}
+.nav{
     display: flex;
-    background: #777;
-    height: 70px;
-}
-ul{
-    display: flex;
-    text-align: center;
-    margin-left: 30%;
-    list-style-type: none;
-    gap: 3rem;
-    
-}
-.nav-links{
-    text-align: center;
-    text-decoration: none;
-    gap: 1.5rem;
-    list-style-type: none;
-    float: right;
-
-}
-.nav-links:link,.nav-links:visited{
-    text-decoration: none;
-}
-.nav-link{
-    /* color: blue; */
-    padding: 15px;
-    gap: 2rem;
     justify-content: space-between;
-    font-size: 30px;
-    
+    padding: 1.8rem 2.2rem;
+    background:black;
+    align-items: center;
 }
-.nav-link:link,.nav-link:visited{
-    text-decoration: none;
-    font-size: 100%;
+.logo-img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+.Nav-links{
     display: flex;
-}
-.btn{
+    font-size: 24px;
+    list-style-type: none;
+    /* margin-left: 40%; */
     float: right;
-    /* margin-left: 8rem; */
-    gap: 5rem;
- font-size: 1rem;
- padding: 5px;
- border-radius: 15px;
- color: blue;
+    gap: 1.8rem;
 }
-.content{
-    margin-left: 8rem;
-    gap: 5rem;
+.Nav-link:link,
+.Nav-link:visited{
+    color: white;
+    /* font-size: 2rem; */
+    text-decoration: none;
+}
+.Nav-link:hover,
+.Nav-link:active{
+    color: darkgoldenrod;
+}
+.link-green:link,
+.link-green:visited{
+    color: darkgoldenrod;
+}
+.link-green:hover,
+.link-green:active{
+    color: white;
+}
+.btn-link:link,
+.btn-link:visited{
+    background:darkgoldenrod;
+    /* padding:1.2rem; */
+    box-shadow: 10px 10px 10px black;
+    border-radius: 0.2rem;
+}
+.btn-link:link,
+.btn-link:active{
+    color: white;
+}
+.Nav-link a li{
+    margin-right: 10%;
 }
