@@ -35,7 +35,7 @@ const Home = () => {
           <div className="site-card-wrapper">
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h2 bold> Youth Empowerment </h2>
+              <h3 bold> Youth Empowerment </h3>
               <p>
                 The Directorate of Youth empowerment monitors and evaluates the
                 implementation of programmes related to Youth socio-economic
@@ -46,7 +46,7 @@ const Home = () => {
 
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h2 bold>Culture Promotion</h2>
+              <h3 bold>Culture Promotion</h3>
               <p>
                 The Directorate of Culture looks systematically and
                 comprehensively the promotion of Culture and Art related fields
@@ -56,7 +56,7 @@ const Home = () => {
 
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h2 bold>Programmes and Projects</h2>
+              <h3 bold>Programmes and Projects</h3>
               <p>
                 The Ministry of Youth and Culture has various programmes and
                 Projects that play a vital Role in creating an enabling
@@ -64,13 +64,13 @@ const Home = () => {
               </p>
               <h4>Read more</h4>
             </Card.Grid>
+            </div>
           </div>
-          <h3 className="explore">
-            <button style={{backgroundColor:"rgb(11, 123, 183)",border:"none",
-            padding:"10px 30px", margin:"20px"}}>
-              Explore more</button> 
-          </h3>
+
         </div>
+        <button style={{backgroundColor:"rgb(11, 123, 183)",border:"none",
+            padding:"8px 30px", margin:"60px 520px",fontSize:"16px",borderRadius:"20px"}}>
+              <h4>Explore more</h4></button> 
         <div className="AmasunzuCard">
           <Card
             title="Rwandan Culture and Traditions"
@@ -114,7 +114,7 @@ const Home = () => {
             </p>
           </Card>
         </div>
-      </div>
+      
     </>
   );
 };

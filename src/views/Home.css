@@ -1,10 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
 .home-container{
     background-image: url("../assets/images/inganzo.JPG") ;
-    object-fit: cover;
+    height:100vh;
+    background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    object-fit: cover;
+    
+    animation-name:animate ;
+   animation-duration:25s ;
+   animation-direction: alternate-reverse ;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out ;
+   animation-play-state:running ;
+   animation-iteration-count: infinite ;
    
+}
+
+@keyframes animate{
+      0%{ background-image: url(../assets/images/umuco1.jpg);}
+
+      30%{ background-image: url(../assets/images/ibiseke2.jpg);}
+
+60%{ background-image: url(../assets/images/inganzo.JPG);
+}
+
+80%{ background-image: url(../assets/images/inganzo1.jpg);
+}
+
+100%{ background-image: url(../assets/images/amasunzu.JPG);
+} 
+
+
 }
 .explore{
     display: flex;
@@ -15,7 +49,7 @@
 .searchbtn{
     width: 31rem;
     margin-top: 15%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin-left:80px ;
 }
 .heading-title{
@@ -25,6 +59,8 @@
     text-align: center;
     justify-content: center;
     font-style: italic;
+    padding-top: 40px;
+    
 }
 .tag{
     font-size: 24px;
@@ -32,12 +68,12 @@
     rotate:calc(-1);
 }
 .site-card-wrapper{
-    margin:0 80px;
+    margin:80px 80px;
     display: flex;
       
 }
 .site-card {
-    margin-right: 40px;
+    margin-right: 30px;
     box-shadow: 50px;
     background-color: white; 
   }
@@ -48,8 +84,9 @@
 }
 .AmasunzuCard{
     display: flex;
-    margin:80px 180px;
-    justify-content: space-between;
+    margin-left: 240px;
+    /* margin: 180px; */
+    /* justify-content: space-between; */
 }
 .amasunzuImgLeft{
     width: 350px;
