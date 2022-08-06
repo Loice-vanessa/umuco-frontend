@@ -3,7 +3,6 @@ import "./learn.css";
 import logo from "../assets/images/logo.jpg";
 import photo from "../assets/images/learn.jfif";
 import "antd/dist/antd.css";
-// import './index.css';
 import { Card } from "antd";
 import Footer from "../components/Footer"
 const Learn = () => {

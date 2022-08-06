@@ -1,5 +1,5 @@
 import React , { useState }from "react";
-import { Select, DatePicker, Space ,Checkbox, Divider }   from 'antd';
+import { Select, DatePicker, Space ,Checkbox, Divider,TimePicker,Button }   from 'antd';
 
 const CheckboxGroup = Checkbox.Group;
 const plainOptions = ['Mon', 'Tue','Wed','Thu','Fri'];
@@ -10,7 +10,7 @@ const FirstContent =()=>{
 const [checkedList, setCheckedList] = useState(defaultCheckedList);
   const [indeterminate, setIndeterminate] = useState(true);
   const [checkAll, setCheckAll] = useState(true);
-
+  const [open, setOpen] = useState(false);
 
     const { RangePicker } = DatePicker;
   
@@ -88,8 +88,17 @@ const [checkedList, setCheckedList] = useState(defaultCheckedList);
    
       <Divider />
       <CheckboxGroup options={plainOptions} value={checkedList}  />
-      <Space direction="vertical" size={12}>
+      <Space direction="horizontal" size={12} >
     <RangePicker picker="month" />
+    <TimePicker
+      open={open}
+      onOpenChange={setOpen}
+      renderExtraFooter={() => (
+        <Button size="small" type="primary" onClick={() => setOpen(false)}>
+          OK
+        </Button>
+      )}
+    />
   </Space>
   </h3>
         </>
