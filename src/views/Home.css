@@ -99,18 +99,18 @@ html{
  .logo{
     background-image: url("../assets/images/igiseke.JPG");
  }
- .learningPic{
-    background-image: url("../assets/images/cultureTag2.jpg");
-    background-size: cover;
-    height: 40rem;
-    /* background-repeat: no-repeat; */
-   object-fit: cover;
- }
+ /* .learningPic{
+    background-image: url("../assets/images/Lake_Kivu_Serena_Rwanda.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+ } */
  .learn-Profile{
-    color: white;
+
     display: flex;
     justify-content: center;
     font-size: 36px;
+    
  }
  ul{
     display: flex;

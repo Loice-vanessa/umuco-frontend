@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, message, Steps } from "antd";
+import { Button, message, Steps,Image,TimePicker } from "antd";
 import "./Home.css";
 import claire from "../assets/images/claire.jpg";
 import Immaculate from "../assets/images/myself.jpeg";
@@ -8,17 +8,14 @@ import ThirdContent from "./thirdContent";
 import SecondContent from "./secondContent";
 import LastContent from "./lastContent";
 import FifthContent from "./FifthContent";
-
+import pic from "../assets/images/cultureTag2.jpg"
 const { Step } = Steps;
 const steps = [
   {
     title: "Coaching",
     content: <FirstContent />,
   },
-  {
-    title: "Time",
-    content: <SecondContent/>,
-  },
+
   {
     title: "Details",
     content: <ThirdContent/>,
@@ -33,8 +30,11 @@ const steps = [
   },
 ];
 const Coaching = () => {
+  const [random, setRandom] = useState();
   const [current, setCurrent] = useState(0);
+  
 
+  
   const next = () => {
     setCurrent(current + 1);
   };
@@ -45,9 +45,26 @@ const Coaching = () => {
 
   return (
     <>
+
       <div className="learningPic">
-        <h1 className="learn-Profile">LEARN WITH A COACH</h1>
+     
+      <Image
+  
+      height={400}
+        width={1350}
+        src={pic}
+        placeholder={
+          <Image
+            preview={false}
+          src={"Learn with a coach"}
+            width={200}
+          />
+        }
+          />
+       
+       
       </div>
+      <h1 className="learn-Profile">LEARN WITH A COACH</h1>
       <p style={{ margin: "40px 120px",fontSize:"18px" }}>
         Like traditional courses, online learning involves a series of lessons
         designed to teach a subject via a portal and can be taken by anyone from
@@ -97,7 +114,7 @@ const Coaching = () => {
         </p>
         <img src={Immaculate} alt="" style={{ width: "28rem", height:"18rem", paddingLeft: "40px"  }}></img>
       </div>
-      <div className="Dashboard">
+      <div className="Dashboard" style={{marginBottom:"60px"}}>
         <p
           style={{
             display: "flex",
