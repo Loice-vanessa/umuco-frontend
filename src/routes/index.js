@@ -19,7 +19,7 @@ const index=()=>{
             <Route exact path="/aboutUs"element={<AboutUs/>}></Route>
             <Route exact path="/learn"element={<Learn/>}></Route>
             <Route exact path="/discover"element={<discover/>}></Route>
-            <Route exact path='/home' element={<Home/>}></Route>;
+            <Route exact path='' element={<Home/>}></Route>;
             <Route exact path='/JoinUs' element={<JoinUs/>}></Route>;
             <Route exact path='/login' element={<LogIn/>}></Route>;
             <Route exact path='/user' element={<Coaching/>}></Route>;
