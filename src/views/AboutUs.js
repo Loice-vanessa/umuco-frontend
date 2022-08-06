@@ -5,7 +5,7 @@ import photo from "../assets/images/learn.jfif";
 import './About.css'
 import 'antd/dist/antd.css';
 import { Card } from "antd";
-import logo from "../assets/images/logo.jpg"
+import logo from "../assets/images/umucoLogo.png"
 const About = () => {
     return(
       <>

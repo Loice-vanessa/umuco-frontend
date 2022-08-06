@@ -7,7 +7,8 @@ import SignIn from '../views/joinForm';
 import { Button, Modal,Input,Form } from 'antd';
 import "./Navbar.css"
 import { Dropdown, Menu, Space } from 'antd';
-import { DownOutlined } from '@ant-design/icons';const menu = (
+import { DownOutlined } from '@ant-design/icons';
+const menu = (
     <Menu
       items={[
         {
@@ -69,36 +70,37 @@ const Nav = () => {
            <div  className="Nav-links">
                <ul>
                    <li> <a href="/home" className="Nav-link">
-                           HOME
+                           Home
                        </a>
                    </li>
                    <li>
                        <a href="aboutus" className="Nav-link">
-                           ABOUT-US
+                           About-Us
                        </a>
                    </li>
                    <li>
                        <a href="" className="Nav-link">
-                        LEARN
-                       <Dropdown overlay={menu} trigger={['click']}>
+                        Learn
+                        
+                       <Dropdown overlay={menu} trigger={['click']}placement="bottomLeft">
                        <DownOutlined></DownOutlined>
   </Dropdown>
                        </a>
                    </li>
                    <li>
                        <a href="/user" className="Nav-link">
-                          DISCOVER
+                          Discover
                           <Dropdown>
                             <DownOutlined></DownOutlined>
                           </Dropdown>
                        </a>
                    </li>
                    </ul> </div>
-<div style={{display:"flex",margin:"24px"}}>
+<div style={{display:"flex",}}>
   
-<Button className="JoinBtn" onClick={showModal} >
+<h4 style={{margin:"32px",fontStyle:"bold"}} onClick={showModal} >
         LOGIN
-       </Button>
+       </h4>
        
        <Modal
       width={700}
@@ -113,8 +115,8 @@ const Nav = () => {
          <p>{<LogINForm/>}</p>
        </Modal>
         
-       <Button type="primary" onClick={showModal} >
-         Join-Us
+       <Button className="JoinBtn" onClick={showModal} >
+         Get Started
        </Button>
        
        <Modal
