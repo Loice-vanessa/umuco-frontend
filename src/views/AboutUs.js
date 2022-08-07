@@ -56,14 +56,16 @@ const About = () => {
            French vanessa & immacule, Backend & Maintenance</p>
         
     
-<Card
+           <Card
         style={{
           width: 300,
         }}
       >
         <p>OUR VISION</p>
-        <p>Card content</p>
-        <p>Card content</p>
+        <p>
+          Becoming a fully integrated online cultural and tourism services
+          provider.
+        </p>
       </Card>
       );
       <Card
@@ -72,8 +74,11 @@ const About = () => {
         }}
       >
         <p>OUR VISION</p>
-        <p>Card content</p>
-        <p>Card content</p>
+        <p>
+          {" "}
+          Providing fine cultural, linguistic and artistic resource to tourists,
+          expatriates and the diaspora.
+        </p>
       </Card>
       );
       <Card
@@ -82,8 +87,7 @@ const About = () => {
         }}
       >
         <p>OUR VISION</p>
-        <p>Card content</p>
-        <p>Card content</p>
+        <p>Service Quality</p>
       </Card>
       );
       </>

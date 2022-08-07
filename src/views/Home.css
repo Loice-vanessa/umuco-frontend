@@ -3,7 +3,7 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    min-height: 60vh;
    
 }
 .explore{
