@@ -40,7 +40,7 @@ html{
 }
 .searchbtn{
     width: 35rem;
-    margin-top: 15%;
+    margin-top: 30rem;
     /* margin-bottom: 10px; */
     margin-left:80px ;
     color: #000;
@@ -62,7 +62,7 @@ html{
     rotate:calc(-1);
 }
 .site-card-wrapper{
-    margin:140px 80px;
+    margin:80px;
     display: flex;
       
 }
@@ -83,10 +83,10 @@ html{
     /* margin: 180px; */
     /* justify-content: space-between; */
 }
-.amasunzuImgLeft{
-    width: 350px;
+.ImgLeft{
+    width: 380px;
     float: left;
-    height: 240px;
+    height: 280px;
  }
  .logo{
     background-image: url("../assets/images/igiseke.JPG");
@@ -147,10 +147,11 @@ html{
     align-items: center;
     margin-top: 1rem;
     list-style-type: none;
-
+    
 }
 .knowMore li{
     padding-left: 0rem;
+    gap: 1.4em;
 }
 .knowMore h5{
     color: white;
@@ -159,7 +160,7 @@ html{
     font-size: 2rem;
 }
 #newsletter-container {
-    background-color: #e28743;
+    background-color: #154c79;
     padding: 3rem 0;
     height: 180px;
 }

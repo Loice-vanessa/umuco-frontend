@@ -102,7 +102,7 @@ const Home = () => {
         <img src={amasunzu} alt="" className="amasunzuImg"></img>
       </div>
       <div className="AmasunzuCard">
-        <img src={ingoma} alt="" className="amasunzuImgLeft"></img>
+        <img src={ingoma} alt="" className="ImgLeft"></img>
         <Card
           title="Rwandan Culture and Traditions"
           bordered={false}
@@ -130,8 +130,10 @@ const Home = () => {
           <ul>
         
             <li>
-              “Rwanda is truly the Heart of Africa, and it's easy to see why…
-              come and explore its beauty.We have seen amazing results already”
+            Rwanda attaches great importance to the preservation and promotion of its
+culture as a cornerstone for sustainable development. 
+              Rwanda is truly the Heart of Africa, and it's easy to see why…
+              come and explore its beauty.”
             </li>
           </ul>
         

@@ -8,6 +8,9 @@ import Home from "../views/Home";
 import JoinUs from "../views/JoinUs";
 import LogIn from "../views/logIn";
 import Coaching from "../views/userDash";
+import ManagerUsers from "../views/Dashboard/ManagerUser";
+import Allcourse from "../views/Dashboard/ManagerCourses";
+import NewCourse from "../views/Dashboard/CreateCourses";
 
 
 const index=()=>{
@@ -23,6 +26,9 @@ const index=()=>{
             <Route exact path='/JoinUs' element={<JoinUs/>}></Route>;
             <Route exact path='/login' element={<LogIn/>}></Route>;
             <Route exact path='/user' element={<Coaching/>}></Route>;
+            <Route exact path='/dashb' element={<ManagerUsers/>}></Route>;
+            <Route exact path='/dashboard' element={<Allcourse/>}></Route>;
+            <Route exact path='/course' element={<NewCourse/>}></Route>;
         </Routes>
         </HomeLayout>
         </>

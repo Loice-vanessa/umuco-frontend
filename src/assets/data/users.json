@@ -1,0 +1,77 @@
+[
+    {
+        "name":"Eric Dushime",
+        "id":"1",
+        "email": "eric@gmail.com",
+        "gender":"Male",
+        "age":"18",
+        "home":"kimironko",
+        "isActive":true,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000"
+    },
+    {
+        "name":"Elise Dushimemungu",
+        "id":"2",
+        "email": "elise@gmail.com",
+        "gender":"Female",
+        "age":"21",
+        "home":"kicukiro",
+        "isActive":false,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Maya Dukuze",
+        "id":"3",
+        "email": "maya@gmail.com",
+        "gender":"Male",
+        "age":"24",
+        "home":"Gasabo",
+        "isActive":true,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Douce jojo",
+        "id":"4",
+        "email": "doudou@gmail.com",
+        "gender": "Female",
+        "age":"30",
+        "home":"Gahoromanyi",
+        "isActive":false,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Maya Dukuze",
+        "id":"3",
+        "email": "maya@gmail.com",
+        "gender":"Male",
+        "age":"24",
+        "home":"Gasabo",
+        "isActive":true,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    },
+    {
+        "name":"Douce jojo",
+        "id":"4",
+        "email": "doudou@gmail.com",
+        "gender": "Female",
+        "age":"30",
+        "home":"Gahoromanyi",
+        "isActive":false,
+        "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
+        "phone":"+250788888543",
+        "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"
+    }
+    
+    
+    
+]
