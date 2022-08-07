@@ -6,7 +6,7 @@
         "gender":"Male",
         "age":"18",
         "home":"kimironko",
-        "isActive":true,
+        "isActive":false,
         "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
         "phone":"+250788888543",
         "profilePicture":"https://img.freepik.com/free-photo/pleasant-looking-serious-man-stands-profile-has-confident-expression-wears-casual-white-t-shirt_273609-16959.jpg?w=2000"
@@ -54,7 +54,7 @@
         "gender":"Male",
         "age":"24",
         "home":"Gasabo",
-        "isActive":true,
+        "isActive":false,
         "about":"Sint labore minim cillum commodo sint deserunt proident labore minim cillum commodo sint deserunt.",
         "phone":"+250788888543",
         "profilePicture":"https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"

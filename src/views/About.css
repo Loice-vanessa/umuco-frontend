@@ -21,13 +21,32 @@
 }
 
 .background2 {
-    background: url('./../assets/images/ibiseke2.jpg');
+    background: url('./../assets/images/backabout.jpg');
     background-size: cover;
     width: 100%;
     height: 842px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.background h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 222px;
+}
+
+.background h3 {
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
 }
 .card-container {
     display: flex;
@@ -37,3 +56,23 @@
     margin-right: auto;
     margin-top: -210px;
 }
+.logo{
+    width: 850px;
+    float: right;
+    height: 240px;
+    
+ }
+ .aboutusCard{
+    float: left;
+     display: flex;
+     margin-left: 240px;
+     margin: 180px;
+      justify-content: space-between; 
+ }
+ .ImgLeft{
+     
+   margin-left: 80px;
+   height: 7rem;
+   
+   border-radius: 50%;
+  }

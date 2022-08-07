@@ -12,7 +12,7 @@ const Learn = () => {
   return (
     <>
       <div className="background">
-        <h1>Let's learn Kinyarwanda...</h1>
+        <h1>Let's learn Kinyarwanda</h1>
         <h3>
           Are you in Rwanda and struggling to make first sentence? Don't worry
         </h3>

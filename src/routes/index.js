@@ -18,7 +18,7 @@ const index=()=>{
         <>
         <HomeLayout>
         <Routes>
-            {/* <Route exact path="/"element={<Home/>}></Route> */}
+            <Route exact path="/home"element={<Home/>}></Route>
             <Route exact path="/aboutUs"element={<AboutUs/>}></Route>
             <Route exact path="/learn"element={<Learn/>}></Route>
             <Route exact path="/discover"element={<discover/>}></Route>

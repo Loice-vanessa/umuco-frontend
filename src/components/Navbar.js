@@ -79,7 +79,7 @@ const Nav = () => {
                        </a>
                    </li>
                    <li>
-                       <a href="" className="Nav-link">
+                       <a href="/learn" className="Nav-link">
                         Learn
                         
                        <Dropdown overlay={menu} trigger={['click']}placement="bottomLeft">

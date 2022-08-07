@@ -85,17 +85,17 @@ ul {
     align-items: center;
 }
 
-.background h1 {
+.background2 h1 {
     text-align: center;
     font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 50px;
     color: #FFFFFF;
-    margin-top: 222px;
+    margin-top: 333px;
 }
 
-.background h3 {
+.background2 h3 {
     height: 36px;
     font-style: normal;
     font-weight: 700;
