@@ -3,7 +3,6 @@ import "./learn.css";
 import logo from "../assets/images/logo.jpg";
 import photo from "../assets/images/learnBG.png";
 import "antd/dist/antd.css";
-// import './index.css';
 import { Card } from "antd";
 import CardLearn from "../components/learnCard";
 import rwandablack from "./../assets/images/rwanda-black.png";

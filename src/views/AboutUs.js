@@ -9,11 +9,12 @@ import logo from "../assets/images/logo.jpg"
 const About = () => {
     return(
       <>
-         <div className="profileLearn">
-      
+
+<div className="background">
         <h1>WE ARE GROWING...</h1>
-         <h3>will you grow with us?</h3> 
-           </div>
+        <h3>will you grow with us?</h3>
+      </div>
+  
            <div style={{display:"flex"}}>
            <img src={logo} className="logo"/>
          

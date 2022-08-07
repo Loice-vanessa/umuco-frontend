@@ -5,36 +5,41 @@
 }
 .body{
    font-family: 'Roboto',sans-serif;
+   font-weight: 400;
 }
-html{
-    font-size: 62.5%;
-}
+
 .nav{
     display: flex;
+    background:whitesmoke;
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow:0 0 1.2rem 3.2rem rgb(0 0 0 / 3%);
+    z-index: 555;
     justify-content: space-between;
-    padding: 1.8rem 2.2rem;
-    background:black;
-    align-items: center;
 }
 .logo-img {
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%; 
+    /* padding: 20px; */
+   margin-left: 80px;
+   height: 7rem;
+   /* margin-top: 20px; */
+   border-radius: 50%;
 }
 .Nav-links{
     display: flex;
-    font-size: 24px;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
-    /* margin-left: 40%; */
-    float: right;
-    gap: 1.8rem;
+    /* justify-content: center; */
+    /* margin: 40px ; */
+    transition: all .3s;
+    cursor: pointer;
 }
 .Nav-link:link,
 .Nav-link:visited{
-    color: white;
-    /* font-size: 2rem; */
-    text-decoration: none;
+    color:black;
+
 }
 .Nav-link:hover,
 .Nav-link:active{
@@ -46,19 +51,28 @@ html{
 }
 .link-green:hover,
 .link-green:active{
-    color: white;
+    color:black;
 }
 .btn-link:link,
 .btn-link:visited{
     background:darkgoldenrod;
-    /* padding:1.2rem; */
     box-shadow: 10px 10px 10px black;
     border-radius: 0.2rem;
 }
 .btn-link:link,
 .btn-link:active{
+    color:black;
+}
+
+.JoinBtn{
+    font-size: 18px;
+    background-color:#154c79;
+    font-weight: 500;
+    padding:30px;
     color: white;
+  border: none;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
 }
-.Nav-link a li{
-    margin-right: 10%;
-}
+
