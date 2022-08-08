@@ -98,9 +98,9 @@ const Nav = () => {
                    </ul> </div>
 <div style={{display:"flex",}}>
   
-<h4 style={{margin:"32px",fontStyle:"bold"}} onClick={showModal} >
+{/* <h4 style={{margin:"32px",fontStyle:"bold"}} onClick={showModal} >
         LOGIN
-       </h4>
+       </h4> */}
        
        <Modal
       width={700}

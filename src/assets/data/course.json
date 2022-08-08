@@ -1,0 +1,30 @@
+[
+
+    {
+        "title":"Kinyarwanda Course level I",
+        "description":"Dolor qui ipsum non dolore ea.Eiusmod reprehenderit do minim ea labore.Minim consequat adipisicing labore veniam non nisi cupidatat amet ",
+        "dueDate":"Date:10-05-2013",
+        "amount" :"$100",
+        "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rwanda_cultural_house_%28NYAKATSI%29.jpg/1024px-Rwanda_cultural_house_%28NYAKATSI%29.jpg",
+        "seats"  :5,
+        "prepareBy": "Prepared By Ingabire"
+    },
+   {
+    "title":"Kinyarwanda Course level II",
+    "description":"Dolor qui ipsum non dolore ea.Eiusmod reprehenderit do minim ea labore.Minim consequat adipisicing labore veniam non nisi cupidatat amet ",
+    "dueDate":"Date:15-05-2030",
+    "amount" :"$280",
+    "photo":"https://i.ytimg.com/vi/MQwE8doSAlw/maxresdefault.jpg",
+    "seats"  :5,
+    "prepareBy": "Prepared By Ingabire"
+},
+{
+    "title":"Kinyarwanda Course level III",
+    "description":"Dolor qui ipsum non dolore ea.Eiusmod reprehenderit do minim ea labore Minim consequat adipisicing labore veniam non nisi cupidatat amet ",
+    "dueDate":"Date:15-05-2030",
+    "amount" :"$360",
+    "photo":"https://1.bp.blogspot.com/-Hwsi7gZEmDA/XXwGLkQsn5I/AAAAAAAAA3M/vMcPRq39Xy0VuO_VfJhAGtSzGLMqBUaRQCPcBGAYYCw/s1280/Genius%2BEmpire%2Bpage%2B-%2BIkibonezamvugo.jpg",
+    "seats"  :5,
+    "prepareBy": "Prepared By Ingabire"
+}
+]
