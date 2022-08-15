@@ -8,22 +8,23 @@ import { Button, Modal,Input,Form } from 'antd';
 import "./Navbar.css"
 import { Dropdown, Menu, Space } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
+import {Link} from "react-router-dom"
 const menu = (
     <Menu
       items={[
         {
-          label: <a href="https://www.antgroup.com">All courses</a>,
           key: '0',
+          label: <a href="https://www.youtube.com/watch?v=tV0metUxKFo">lesson</a>,
         },
         {
-          label: <a href="https://www.aliyun.com">learn with coach</a>,
+          label: <a href="https://www.youtube.com/watch?v=BZCuHpFhuaQ&t=22s">pricing</a>,
           key: '1',
         },
         {
           type: 'divider',
         },
         {
-          label: 'pricing',
+          label: <a href="https://www.youtube.com/watch?v=xOU7nfCc_y4">learn with coach</a>,
           key: '3',
         },
       ]}
@@ -40,9 +41,6 @@ const Nav = () => {
   const showModal = () => {
     setVisible(true);
   };
-
-  
-
   
   const [visible, setVisible] = useState(false);
    const [confirmLoading, setConfirmLoading] = useState(false);
@@ -98,9 +96,9 @@ const Nav = () => {
                    </ul> </div>
 <div style={{display:"flex",}}>
   
-{/* <h4 style={{margin:"32px",fontStyle:"bold"}} onClick={showModal} >
+<h4 style={{margin:"32px",fontStyle:"bold"}} onClick={showModal} >
         LOGIN
-       </h4> */}
+       </h4>
        
        <Modal
       width={700}
