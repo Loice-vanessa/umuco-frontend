@@ -6,8 +6,8 @@ import LogINForm from "../views/LogInForm";
 import SignIn from "../views/joinForm";
 import { Button, Modal, Affix } from "antd";
 import "./Navbar.css";
-import { Dropdown, Menu, Space } from "antd";
-import { DownOutlined } from "@ant-design/icons";
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Menu, Space } from 'antd';
 import { Link } from "react-router-dom";
 const menu = (
   <Menu
@@ -84,13 +84,14 @@ const Nav = () => {
               <li>
                 <a href="/learn" className="Nav-link">
                   Learn
-                  <Dropdown
-                    overlay={menu}
-                    trigger={["click"]}
-                    placement="bottomLeft"
-                  >
-                    <DownOutlined></DownOutlined>
-                  </Dropdown>
+                  <Dropdown overlay={menu}>
+    <a onClick={(e) => e.preventDefault()}>
+      <Space>
+        Learn
+        <DownOutlined />
+      </Space>
+    </a>
+  </Dropdown>
                 </a>
               </li>
               <li>
