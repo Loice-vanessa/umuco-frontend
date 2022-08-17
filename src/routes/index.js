@@ -13,6 +13,7 @@ import ManagerUsers from "../views/Dashboard/ManagerUser";
 import Allcourse from "../views/Dashboard/ManagerCourses";
 import NewCourse from "../views/Dashboard/CreateCourses"
 import allCourses from "../views/allCourses";
+import Enrrol from "../views/enrrol";
 
 const index=()=>{
     return (
@@ -31,6 +32,7 @@ const index=()=>{
             <Route exact path='/dashb' element={<ManagerUsers/>}></Route>;
             <Route exact path='/dashboard' element={<Allcourse/>}></Route>;
             <Route exact path='/course' element={<NewCourse/>}></Route>;
+            <Route exact path='/enrrol' element={<Enrrol/>}></Route>
         </Routes>
         </HomeLayout>
         </>
