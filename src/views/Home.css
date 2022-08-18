@@ -9,11 +9,15 @@ html{
 }
 .home-container{
     background-image: url("../assets/images/inganzo.JPG") ;
-    height:100vh;
+    /* height:100vh; */
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
    
 }
 
@@ -52,12 +56,9 @@ Search{
 }
 .heading-title{
     color: white;
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 5rem;
     font-style: italic;
-    padding-top: 50px;
+    padding: 20px;
     background-color: #00000085;
   
 }
@@ -67,12 +68,16 @@ Search{
     rotate:calc(270deg);
 }
 .site-card-wrapper{
-    margin:80px;
     display: flex;
-     
+    gap: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items:center;   
 }
 .site-card {
-    margin-right: 30px;
+
+    width: 25%;
+    height: 25vh;
     box-shadow: 50px;
     background-color:#eeee; 
   }
@@ -84,7 +89,7 @@ Search{
 }
 .AmasunzuCard{
     display: flex;
-    margin-left: 240px;
+    align-items: center;
     /* margin: 180px; */
     /* justify-content: space-between; */
 }
@@ -99,12 +104,16 @@ Search{
  .logo{
     background-image: url("../assets/images/igiseke.JPG");
  }
- /* .learningPic{
-    background-image: url("../assets/images/Lake_Kivu_Serena_Rwanda.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    width: 100vw;
- } */
+ .learningPic{
+   
+    width: 100%;
+    display: flex;
+    background:red;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items:center;
+ }
  .learn-Profile{
 
     display: flex;
@@ -143,8 +152,6 @@ Search{
     font-size: 1.6rem;
     line-height: 1.75rem;
     width: 30%;
-    margin-left:40%;
-    margin-bottom: 20px;
 }
 .knowMore ul{
     flex: 1;
