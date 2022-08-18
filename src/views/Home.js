@@ -36,32 +36,31 @@ const Home = () => {
           <div className="site-card-wrapper">
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h3 bold> Youth Empowerment </h3>
+              <h3 bold> MEMBERS </h3>
               <p>
-                The Directorate of Youth empowerment monitors and evaluates the
-                implementation of programmes related to Youth socio-economic
-                empowerment{" "}
+              
+When you join the Umuco Community, we invest in your education and you pay us back when you can.​
+
               </p>
               <h4>Read more</h4>
             </Card.Grid>
 
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h3 bold>Culture Promotion</h3>
+              <h3 bold>INVESTORS</h3>
               <p>
-                The Directorate of Culture looks systematically and
-                comprehensively the promotion of Culture and Art related fields
+              
+Investing in Umuco Community is a big opportunity and we have many options for you to get involved and impact lives.
               </p>
               <h4>Read more</h4>
             </Card.Grid>
 
             <Card.Grid className="site-card">
               <TagOutlined className="tag" />
-              <h3 bold>Programmes and Projects</h3>
+              <h3 bold>PARTNERS</h3>
               <p>
-                The Ministry of Youth and Culture has various programmes and
-                Projects that play a vital Role in creating an enabling
-                environment for youth Socio…
+              
+Our partners are well vetted to ensure equitable access to education and holistic educational programs
               </p>
               <h4>Read more</h4>
             </Card.Grid>
@@ -72,8 +71,8 @@ const Home = () => {
         style={{
           backgroundColor: "rgb(11, 123, 183)",
           border: "none",
-          padding: "8px 30px",
-          margin: "60px 520px",
+          padding: "6px 30px",
+          margin: "80px 560px",
           fontSize: "16px",
           borderRadius: "20px",
         }}
@@ -82,12 +81,10 @@ const Home = () => {
       </button>
       <div className="AmasunzuCard">
         <Card
-          title="Rwandan Culture and Traditions"
-          bordered={false}
           style={{
             width: 500,
           }}
-        >
+        > <h3>Rwandan Culture and Traditions</h3>
           <p>
             Amasunzu Amasunzu is a traditional Rwandan hairstyle that was once
             worn by men and women. The unique style is created by cutting some
@@ -97,19 +94,17 @@ const Home = () => {
             it on the red carpet at the Oscar. Visit the king’s Palace and the
             Ethnographic Museum to learn more about Rwanda’s cultural heritage.
           </p>
-          <h4 style={{padding:"10px",border:"2px solid black",width:"120px"}}>Read more</h4>
+          <h4 style={{padding:"10px",border:"2px solid black",width:"120px",marginLeft:"60%"}}>Read more</h4>
         </Card>
         <img src={amasunzu} alt="" className="amasunzuImg"></img>
       </div>
       <div className="AmasunzuCard">
         <img src={ingoma} alt="" className="ImgLeft"></img>
         <Card
-          title="Rwandan Culture and Traditions"
-          bordered={false}
           style={{
             width: 500,
           }}
-        >
+        ><h3>Rwandan Culture and Traditions</h3>
           <p>
             Rwandan Culture and Traditions Artisanal Crafts Weaving and basket
             making is a traditional art still used today to make dry containers
@@ -120,7 +115,7 @@ const Home = () => {
             techniques. Known for its good quality clay these potteries are
             still widely used for cooking and storing liquids.
           </p>
-          <h4 style={{padding:"10px",border:"2px solid black",width:"120px"}}>Read more</h4>
+          <h4 style={{padding:"10px",border:"2px solid black",width:"120px",marginLeft:"60%"}}>Read more</h4>
         </Card>
       </div>
       <div className="knowMore">

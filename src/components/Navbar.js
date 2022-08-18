@@ -4,7 +4,7 @@ import React ,{useState} from "react";
 import logo from "../assets/images/umucologo2.jpg";
 import LogINForm from "../views/LogInForm";
 import SignIn from '../views/joinForm';
-import { Button, Modal,Input,Form } from 'antd';
+import { Button, Modal,Affix } from 'antd';
 import "./Navbar.css"
 import { Dropdown, Menu, Space } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
@@ -65,6 +65,8 @@ const Nav = () => {
    };
  
     return (
+      <>
+      <Affix offsetTop={1}>
        <div className="nav">
            <img src={logo} alt="rwanda-culture" className="logo-img"/>
            <div  className="Nav-links">
@@ -136,6 +138,8 @@ const Nav = () => {
            
          
        </div>
+       </Affix>
+       </>
     );
 };
 export default Nav;
