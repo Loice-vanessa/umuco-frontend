@@ -8,8 +8,10 @@ html{
 
 }
 .footer-content{
-     padding: 4.4rem;
-    display: grid;
+     padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background: black;
     grid-template-columns: repeat(5, 1fr);
 

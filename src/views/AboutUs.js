@@ -6,10 +6,10 @@ import logo from "../assets/images/logo.jpg";
 const About = () => {
   return (
     <>
-      <div className="background2">
-        <h1>WE ARE GROWING...</h1>
-        <h3>will you grow with us?</h3>
-      </div>
+    <div className="background2">
+      <h1>WE ARE GROWING...</h1>
+      <h3>will you grow with us?</h3>
+    </div>
 
       <div className="aboutusCard">
         <Card
@@ -53,8 +53,6 @@ const About = () => {
             Read more
           </h4>
         </Card>
-      </div>
-      <div className="aboutusCard">
         <Card
           title="UMUCO WEB (rwanda-culture)"
           bordered={false}
