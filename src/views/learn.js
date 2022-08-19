@@ -21,8 +21,8 @@ const Learn = () => {
           Are you in Rwanda and struggling to make first sentence? Don't worry
         </h3>
         <div className="hero-btn">
-          <button>View Programmes</button>
-          <button style={{ color: "white", background: "#FCC401" }}>
+          <button  className="quick-test">View Programmes</button>
+          <button  className="quick-test"style={{ color: "white", background: "#FCC401" }}>
             Get Started For Free
           </button>
         </div>

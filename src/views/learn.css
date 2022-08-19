@@ -224,7 +224,7 @@
   
   .quick-test:hover {
     cursor: pointer;
-    border: 1px solid #000;
+    border: 3px solid #000;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   
@@ -321,4 +321,5 @@
     cursor: pointer;
     border: 1px solid #fff;
   }
+  
   

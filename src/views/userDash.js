@@ -6,6 +6,7 @@ import Immaculate from "../assets/images/myself.jpeg";
 import FirstContent from "./firstContent";
 import ThirdContent from "./thirdContent";
 import SecondContent from "./secondContent";
+// import learnModel from "../componets/learnModel"
 import LastContent from "./lastContent";
 import FifthContent from "./FifthContent";
 import pic from "../assets/images/cultureTag2.jpg";
