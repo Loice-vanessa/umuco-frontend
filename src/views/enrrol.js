@@ -15,7 +15,7 @@ const Enrrol = () => {
     <>
     <div style={{ widith: "100%", height: "auto", padding: "10px 100px" }}>
       <Card style={{justifyContent:"space-between",background:"darkgolden"}}>
-        {/* <Title>choose your tour</Title> */}
+      
         {
         allCourses.map((Enrrol)=>(
             <Card.Grid className="Enrrol-card-grid">

@@ -4,7 +4,7 @@ import "./learn.css";
 import logo from "../assets/images/logo.jpg";
 import photo from "../assets/images/learnBG.png";
 import "antd/dist/antd.css";
-import CardLearn from "../components/learnCard";
+import CardLearn from "../components/learnCard1";
 import rwandablack from "./../assets/images/rwanda-black.png";
 import ingomaLearn from "./../assets/images/ingoma-learn.png";
 import girafeLearn from "./../assets/images/girafe-learn.png";

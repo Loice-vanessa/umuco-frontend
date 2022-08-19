@@ -14,13 +14,13 @@ const menu = (
     items={[
       {
         key: "0",
-        label: <a href="https://www.youtube.com/watch?v=tV0metUxKFo">lesson</a>,
+        label: <a href="/allCources" className="">
+        all courses
+      </a>
       },
       {
         label: (
-          <a href="https://www.youtube.com/watch?v=BZCuHpFhuaQ&t=22s">
-            pricing
-          </a>
+          <a href="/user" className="Nav-link">user</a>
         ),
         key: "1",
       },
@@ -29,7 +29,7 @@ const menu = (
       },
       {
         label: (
-          <a href="https://www.youtube.com/watch?v=xOU7nfCc_y4">
+          <a href="/enrrol" className="enrrol">
             learn with coach
           </a>
         ),
@@ -87,7 +87,6 @@ const Nav = () => {
                   <Dropdown overlay={menu}>
     <a onClick={(e) => e.preventDefault()}>
       <Space>
-        Learn
         <DownOutlined />
       </Space>
     </a>
@@ -97,9 +96,9 @@ const Nav = () => {
               <li>
                 <a href="/user" className="Nav-link">
                   Discover
-                  <Dropdown>
+                  {/* <Dropdown>
                     <DownOutlined></DownOutlined>
-                  </Dropdown>
+                  </Dropdown> */}
                 </a>
               </li>
             </ul>{" "}
