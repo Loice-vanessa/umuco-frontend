@@ -1,64 +1,325 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-.logo-img{
+  }
+  
+  .logo-img {
     width: 100px;
     /* height: 10; */
-}
-.container{
+  }
+  
+  .container {
     display: flex;
     background: #777;
     height: 70px;
-}
-ul{
+  }
+  
+  ul {
     display: flex;
     text-align: center;
     margin-left: 30%;
     list-style-type: none;
     gap: 3rem;
-    
-}
-.nav-links{
+  }
+  
+  .nav-links {
     text-align: center;
     text-decoration: none;
     gap: 1.5rem;
     list-style-type: none;
     float: right;
-
-}
-.nav-links:link,.nav-links:visited{
+  }
+  
+  .nav-links:link,
+  .nav-links:visited {
     text-decoration: none;
-}
-.nav-link{
+  }
+  
+  .nav-link {
     /* color: blue; */
     padding: 15px;
     gap: 2rem;
     justify-content: space-between;
     font-size: 30px;
-    
-}
-.nav-link:link,.nav-link:visited{
+  }
+  
+  .nav-link:link,
+  .nav-link:visited {
     text-decoration: none;
     font-size: 100%;
     display: flex;
-}
-.btn{
+  }
+  
+  .btn {
     float: right;
     /* margin-left: 8rem; */
     gap: 5rem;
- font-size: 1rem;
- padding: 5px;
- border-radius: 15px;
- color: blue;
-}
-.content{
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 15px;
+    color: blue;
+  }
+  
+  .content {
     margin-left: 8rem;
     gap: 5rem;
-}
-.backimage{
+  }
+  
+  .backimage {
     object-fit: cover;
     background-repeat: no-repeat;
-}
+  }
+  
+  .background {
+    background: url("./../assets/images/learnBG.png");
+    background-size: cover;
+    width: 100%;
+    height: 842px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .background h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-top: 222px;
+  }
+  
+  .background h3 {
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  .hero-btn {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  .hero-btn button {
+    cursor:pointer;
+    width: 300px;
+    height: 70px;
+    border: none;
+    background: #ffffff;
+    border-radius: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+  }
+  .hero-btn button:hover {
+    cursor: pointer;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -210px;
+  }
+  
+  .card-learn {
+    width: 30%;
+    border-radius: 45px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  .card-learn svg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+  }
+  
+  .card-learn hr {
+    width: 80%;
+    height: 5px;
+    margin-top: 51px;
+    background-color: #000;
+    border: none;
+  }
+  
+  .card-learn p {
+    width: 60%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .card-learn button {
+    box-sizing: border-box;
+    width: 141px;
+    height: 69px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .card-learn button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border: 3px solid #0000007e;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .learn h3 {
+    width: 655px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+  .quick-test {
+    width: 397px;
+    height: 83px;
+    background: #fcc401;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .quick-test:hover {
+    cursor: pointer;
+    border: 3px solid #000;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .learn-cards {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .learn-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.74);
+    border: 3px solid #000000;
+    box-sizing: border-box;
+  }
+  
+  .learn-card img {
+    width: 90px;
+    height: 90px;
+    margin: 45px auto;
+    border-radius: 45px;
+  }
+  
+  .spann {
+    width: 100%;
+    background: #000000;
+    text-align: center;
+  }
+  
+  .spann h5 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  
+  .spann p {
+    margin-top: 17px;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  
+  .learn-card p:first-of-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  
+  .learn-card p:last-of-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .learn-card button {
+    width: 228px;
+    height: 57px;
+    background: #000000;
+    border-radius: 50px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  
+  .learn-card button:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  
+  
