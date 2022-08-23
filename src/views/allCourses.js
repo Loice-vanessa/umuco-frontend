@@ -9,7 +9,7 @@ import rwandablack from "./../assets/images/rwanda-black.png";
 import ingomaLearn from "./../assets/images/ingoma-learn.png";
 import girafeLearn from "./../assets/images/girafe-learn.png";
 import { Card } from "antd";
-const allCourses = () => {
+const AllCourses = () => {
   return (
     <>
       <div className="background">
@@ -72,4 +72,4 @@ const allCourses = () => {
     </>
   );
 };
-export default allCourses;
+export default AllCourses;

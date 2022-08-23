@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
 }
 .profileLearn {
-  background-image: url("../assets/images/about.jpg");
+  /* background-image: url("../assets/images/about.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
