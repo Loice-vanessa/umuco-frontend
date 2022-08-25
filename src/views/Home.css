@@ -9,15 +9,19 @@ html{
 }
 .home-container{
     background-image: url("../assets/images/inganzo.JPG") ;
-    /* height:100vh; */
+    height:100vh;
     background-position:center center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: column;
-    min-height: 80vh;
+    object-fit: cover;
+    
+    animation-name:animate ;
+   animation-duration:25s ;
+   animation-direction: alternate-reverse ;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out ;
+   animation-play-state:running ;
+   animation-iteration-count: infinite ;
    
 }
 
@@ -43,77 +47,79 @@ html{
     text-align: center;
     font-size: 18px;
 }
-.searchbtn{
-    width: 36rem;
-    margin-top: 30rem;
-    /* margin-bottom: 10px; */
-    margin-left:80px ;
-    color: #000;
+.center{
+    width: 100%;
+    display:center;
+    align-items:center;
+    justify-content:center;
 }
 
-Search{
-    background-color:#eeee; 
-}
 .heading-title{
     color: white;
-    font-size: 5rem;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-style: italic;
-    padding: 20px;
+    padding-top: 50px;
     background-color: #00000085;
   
 }
+
+
+.intro-image.with-box-shadow img {
+    box-shadow: -12px 12px #0a2336;
+}
+
+
 .tag{
     font-size: 24px;
     color: rgb(11, 123, 183);
     rotate:calc(270deg);
 }
 .site-card-wrapper{
+    padding: 30% 4rem;
     display: flex;
-    gap: 4rem;
-    width: 100%;
-    justify-content: center;
-    align-items:center;   
+    gap:2rem;
+     align-items: center;
+     justify-content:center;
+}
+.site-card p{
+    font-weight: 400;
 }
 .site-card {
-
-    width: 25%;
-    height: 25vh;
     box-shadow: 50px;
     background-color:#eeee; 
   }
 .amasunzuImg{
-   width: 350px;
+   width: 380px;
    float: right;
-   height: 240px;
+   height: 280px;
    
 }
-.AmasunzuCard{
+.ContainerCard{
     display: flex;
-    align-items: center;
-    /* margin: 180px; */
-    /* justify-content: space-between; */
+    font-weight: 500;
+    font-size: 15px;
+    gap:3rem;
+    padding: 4rem;
 }
-.AmasunzuCard h3{
+.ContainerCard h2{
     color: rgb(11, 123, 183);
 }
-.ImgLeft{
+.ContainerCard::after::before{
+    box-shadow: #154c79;
+}
+.ImgCard{
     width: 380px;
     float: left;
-    height: 280px;
+    height: 260px;
  }
+
  .logo{
     background-image: url("../assets/images/igiseke.JPG");
  }
- .learningPic{
-   
-    width: 100%;
-    display: flex;
-    background:red;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items:center;
- }
+
  .learn-Profile{
 
     display: flex;
@@ -152,6 +158,8 @@ Search{
     font-size: 1.6rem;
     line-height: 1.75rem;
     width: 30%;
+    margin-left:40%;
+    margin-bottom: 20px;
 }
 .knowMore ul{
     flex: 1;

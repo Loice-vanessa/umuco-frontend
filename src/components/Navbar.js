@@ -78,9 +78,7 @@ const Nav = () => {
                   Learn
                   <Dropdown overlay={menu}>
     <a onClick={(e) => e.preventDefault()}>
-      <Space>
-        <DownOutlined />
-      </Space>
+      
     </a>
   </Dropdown>
                 </a>
