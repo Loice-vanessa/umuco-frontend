@@ -13,15 +13,7 @@ const menu = (
   <Menu
     items={[
       {
-        key: "0",
-        label: <a href="/allCources" className="">
-        all courses
-      </a>
-      },
-      {
-        label: (
-          <a href="/user" className="Nav-link">user</a>
-        ),
+        label: <Link to={"/lessons"}>All courses</Link>,
         key: "1",
       },
       {

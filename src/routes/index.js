@@ -4,7 +4,7 @@ import HomeLayout from "../components/HomeLayout";
 import AboutUs from "../views/AboutUs";
 // import allCourses from "../views/allCourses"
 import Learn from "../views/learn";
-import discover from "../views/discover";
+// import discover from "../views/discover";
 import Home from "../views/Home";
 import JoinUs from "../views/JoinUs";
 import LogIn from "../views/logIn";
@@ -12,8 +12,7 @@ import Coaching from "../views/userDash";
 import ManagerUsers from "../views/Dashboard/ManagerUser";
 import Allcourse from "../views/Dashboard/ManagerCourses";
 import NewCourse from "../views/Dashboard/CreateCourses"
-import allCourses from "../views/allCourses";
-import Enrrol from "../views/enrrol";
+import Courses from "../views/courses";
 
 const index=()=>{
     return (
@@ -23,7 +22,7 @@ const index=()=>{
             <Route exact path="/home"element={<Home/>}></Route>
             <Route exact path="/aboutUs"element={<AboutUs/>}></Route>
             <Route exact path="/learn"element={<Learn/>}></Route>
-            <Route exact path="/allCourses"element={<allCourses/>}></Route>
+            {/* <Route exact path="/allCourses"element={<allCourses/>}></Route> */}
             <Route exact path="/discover"element={<discover/>}></Route>
             <Route exact path='' element={<Home/>}></Route>;
             <Route exact path='/JoinUs' element={<JoinUs/>}></Route>;
@@ -32,7 +31,7 @@ const index=()=>{
             <Route exact path='/dashb' element={<ManagerUsers/>}></Route>;
             <Route exact path='/dashboard' element={<Allcourse/>}></Route>;
             <Route exact path='/course' element={<NewCourse/>}></Route>;
-            <Route exact path='/enrrol' element={<Enrrol/>}></Route>
+            <Route exact path='/lessons' element={<Courses/>}></Route>
         </Routes>
         </HomeLayout>
         </>

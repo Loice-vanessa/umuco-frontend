@@ -5,7 +5,7 @@ import {Carousel} from 'antd';
 // const { Text, Title } = Typography;
 
 
-const SingleEnrrol = ({data}) => {
+const SingleCourses = ({data}) => {
     return(
         <>
     <div>
@@ -36,4 +36,4 @@ const SingleEnrrol = ({data}) => {
 
     );
 };
-export default SingleEnrrol;
+export default SingleCourses;
