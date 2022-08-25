@@ -7,9 +7,7 @@ import { Card, Image } from "antd";
 import amasunzu from "../assets/images/amasunzu.JPG";
 import ingoma from "../assets/images/trad.jpg";
 import { FaQuoteLeft } from "react-icons/fa";
-import config from "react-reveal/globals";
-import Zoom from "react-reveal/Zoom";
-config({ ssrFadeout: true, ssrFadein: true });
+
 
 const { Search } = Input;
 const suffix = (
