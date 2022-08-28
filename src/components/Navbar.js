@@ -6,8 +6,8 @@ import LogINForm from "../views/LogInForm";
 import SignIn from "../views/joinForm";
 import { Button, Modal, Affix } from "antd";
 import "./Navbar.css";
-import { DownOutlined } from '@ant-design/icons';
-import { Dropdown, Menu, Space } from 'antd';
+import { DownOutlined } from "@ant-design/icons";
+import { Dropdown, Menu, Space } from "antd";
 import { Link } from "react-router-dom";
 const menu = (
   <Menu
@@ -20,11 +20,7 @@ const menu = (
         type: "divider",
       },
       {
-        label: (
-          <a href="/enrrol" className="enrrol">
-            learn with coach
-          </a>
-        ),
+        label: <Link to={"/enrrol"}>learn with a coach</Link>,
         key: "3",
       },
     ]}
@@ -77,10 +73,12 @@ const Nav = () => {
                 <a href="/learn" className="Nav-link">
                   Learn
                   <Dropdown overlay={menu}>
-    <a onClick={(e) => e.preventDefault()}>
-      
-    </a>
-  </Dropdown>
+                    <a onClick={(e) => e.preventDefault()}>
+                      <Space>
+                        <DownOutlined />
+                      </Space>
+                    </a>
+                  </Dropdown>
                 </a>
               </li>
               <li>
@@ -93,11 +91,15 @@ const Nav = () => {
               </li>
             </ul>{" "}
           </div>
-          <div style={{width:"20%", display: "flex",alignItems: "center", justifyContent: "space-between"}}>
-            <h4
-              style={{ fontStyle: "bold" }}
-              onClick={showModal}
-            >
+          <div
+            style={{
+              width: "20%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <h4 style={{ fontStyle: "bold" }} onClick={showModal}>
               LOGIN
             </h4>
 

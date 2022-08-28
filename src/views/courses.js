@@ -1,10 +1,10 @@
 import React,{ useState,useEffect} from "react";
 
 import { Card, Image, Space, Typography, button, Drawer } from "antd";
-// import allcourses from "../assets/data/allCourses.json";
+import allcourses from "../assets/data/allCourses.json";
 import SingleCourses from "../components/singleCourses";
 import coursesServices from "../services/coursesServices";
-// import allCourses from "./allCourses";
+import allCourses from "./allCourses";
 
 
 const { Text, Title } = Typography;

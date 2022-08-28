@@ -1,9 +1,10 @@
-import { Table, Space, Drawer,Button ,Typography,Image,Card} from 'antd';
+import { Table, Space, Drawer,Button , Modal, Typography,Image,Card} from 'antd';
 import React,{useState}from "react";
 import allCourses from "../../assets/data/course.json";
 import 'antd/dist/antd.css';
 import SingleCourse from "../../components/admin/ViewSingleCourse";
 import Dashboard from "../../components/DashboardLayout";
+import NewCourses from '../../components/newCourse';
 
 const { Text, Title } = Typography;
 const Allcourse =()=>{
@@ -32,7 +33,7 @@ const columns = [
       onClick={() => {
         setSelectedCourse(record);
         setVisibleDrawer(true);
-      }}
+      }} 
     >
       Views
     </a></Space>
@@ -56,9 +57,12 @@ const columns = [
     
     dataSource={allCourses}
   />
-  
+    <Button> create course</Button>
     </Dashboard>
     
+    <Modal title="Create New Course" visible={true} onOk={()=>{}} onCancel={()=>{}}>
+      <NewCourses/>
+        </Modal>
   </>
     )
 }
